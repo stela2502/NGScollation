@@ -40,6 +40,8 @@ NGScollation <- R6Class(
 		)
 )
 
+## obtained from https://rappster.wordpress.com/2015/04/03/r6s3-and-s4-getting-the-best-of-both-worlds/
+
 .onAttach <- function(libname, pkgname) {
 	where <- as.environment("package:NGScollation")
 	clss <- list(
