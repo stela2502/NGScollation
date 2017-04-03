@@ -57,3 +57,10 @@ expect_equal(
 		paste( 'test', c(1,2,3,4),sep='') 
 )
 
+expect_equal( names(x$objects), paste( 'test', c(1,2,3,4),sep='') )
+## test the abillities - can I drop from all of them?
+
+saveObj(x)
+
+expect_equal(file.exists( '/tmp/NGStest/test.RData'), TRUE )
+

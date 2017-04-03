@@ -11,7 +11,6 @@ require('R6')
 #' @slot zscored genes are normalized?
 #' @slot snorm samples normalized?
 #' @slot usedObj here a set of used and probably lateron important objects can be saved. Be very carful using any of them!
-#' @exportClass NGScollation
 NGScollation <- R6Class(
 		'NGScollation',
 		public = list ( 
