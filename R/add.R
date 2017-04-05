@@ -59,7 +59,7 @@ setMethod('add', signature = c ('NGScollation'),
 			x$atype2objects[[atype]][[length(x$atype2objects[[atype]])+1]] = length(x$objects)
 		}
 		
-		x$objects2type <- add( x$objects2type, c(stype,atype), as.character(length(x$objects) ))
+		x$objects2type <- add( x$objects2type, c(stype,atype), entry@name)
 		
 		invisible(x)
 } )
