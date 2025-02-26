@@ -4,7 +4,6 @@
 \name{add}
 \alias{add}
 \alias{add,NGScollation-method}
-\alias{add}
 \alias{add,list-method}
 \title{description of function add}
 \usage{
@@ -34,3 +33,4 @@ Add a StefansExpressionSet to the NGScollation object
 
 add an entry into a list
 }
+

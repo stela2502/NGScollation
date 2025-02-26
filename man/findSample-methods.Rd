@@ -16,3 +16,4 @@ findSample(x, sname)
 \description{
 searches all sample tables and reports the names of the datasets the sample is defined in.
 }
+

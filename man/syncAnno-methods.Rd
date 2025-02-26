@@ -14,3 +14,4 @@ syncAnno(x)
 \description{
 copy the putatives modified annotation and samples tables from the x object into the x$object(s)
 }
+

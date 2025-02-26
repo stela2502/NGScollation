@@ -30,5 +30,5 @@ An S4 class to visualize Expression data.
 
 \item{\code{usedObj}}{here a set of used and probably lateron important objects can be saved. Be very carful using any of them!}
 }}
-
 \keyword{datasets}
+
